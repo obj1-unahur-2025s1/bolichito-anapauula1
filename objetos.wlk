@@ -53,7 +53,7 @@ object placa{
     var peso = 200
     method peso() = peso
     method peso(nuevo) {peso = nuevo}
-    var color = celeste
+    var color = rojo
     method color() = color
     method color(nuevo){color = nuevo}
 }
