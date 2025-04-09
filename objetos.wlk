@@ -26,3 +26,34 @@ object cuero{
     method brilla() = false
 }
 
+object remera{
+    method color() = rojo
+    method material() = lino
+    method peso() = 800
+}
+object pelota{
+    method color() = pardo
+    method material() = cuero
+    method peso() = 1300
+}
+object bibloteca{
+    method color() = verde
+    method material() = madera
+    method peso() = 8000
+}
+object munieco{
+    method color() = celeste
+    method material() = vidrio
+    var peso = 100
+    method peso() = peso
+    method peso(nuevo) {peso = nuevo}
+}
+object placa{
+    method material() = cobre
+    var peso = 200
+    method peso() = peso
+    method peso(nuevo) {peso = nuevo}
+    var color = celeste
+    method color() = color
+    method color(nuevo){color = nuevo}
+}
